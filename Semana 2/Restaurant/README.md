@@ -173,7 +173,10 @@ https://snake-volt-24649630.figma.site/dashboard
 ### Interfaces del Sistema
 
 ## Login
-![alt text](images/image-3.png)
+
+<p align="center">
+  <img src="images/image-3.png" width="900">
+</p>
 
 ## Dashboard
 ![alt text](images/image.png)

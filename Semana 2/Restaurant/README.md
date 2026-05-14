@@ -175,11 +175,11 @@ https://snake-volt-24649630.figma.site/dashboard
 ## Login
 
 <p align="center">
-  <img src="images/image-3.png" width="900">
+  <img src="Images/image-3.png" width="900">
 </p>
 
 ## Dashboard
-![alt text](images/image.png)
+![alt text](Images/image.png)
 
 ## Gestión de pedidos
 ![alt text](images/image-2.png)

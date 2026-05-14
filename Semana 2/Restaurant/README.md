@@ -179,19 +179,31 @@ https://snake-volt-24649630.figma.site/dashboard
 </p>
 
 ## Dashboard
-![alt text](Images/image.png)
+<p align="center">
+  <img src="Images/image.png" width="900">
+</p>
 
 ## Gestión de pedidos
-![alt text](images/image-2.png)
+<p align="center">
+  <img src="Images/image-2.png" width="900">
+</p>
 
 ## Modulo de cocina
-![alt text](images/image-4.png)
+<p align="center">
+  <img src="Images/image-4.png" width="900">
+</p>
 
 ## Gestión de inventario
-![alt text](images/image-5.png)
+<p align="center">
+  <img src="Images/image-5.png" width="900">
+</p>
 
 ## Reportes
-![alt text](images/image-1.png)
+<p align="center">
+  <img src="Images/image-1.png" width="900">
+</p>
 
 ## Perfil de usuario
-![alt text](images/image-6.png)
+<p align="center">
+  <img src="Images/image-6.png" width="900">
+</p>

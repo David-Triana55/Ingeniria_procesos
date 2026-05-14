@@ -1,5 +1,9 @@
 # Sistema de Gestión de Pedidos en Tiempo Real para Restaurantes
 
+### Repositorio de GitHub
+
+https://github.com/David-Triana55/Ingeniria_procesos/blob/main/Semana%202/Restaurant/README.md
+
 ## Descripción del Proyecto
 
 Este proyecto consiste en el desarrollo de una plataforma SaaS para la gestión de pedidos en tiempo real en restaurantes. El sistema permitirá administrar pedidos, productos, inventario y estadísticas, facilitando la comunicación entre clientes, cocina y administradores mediante actualizaciones en tiempo real.

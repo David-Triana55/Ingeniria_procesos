@@ -22,7 +22,7 @@ export function Login() {
       localStorage.setItem('user', JSON.stringify(data.user));
       navigate('/dashboard');
     } catch (err: any) {
-      setError(err.message);
+      setError("El usuario o contraseña no son correctos");
     } finally {
       setLoading(false);
     }

@@ -2,6 +2,9 @@
 
 Sistema de gestión administrativa para restaurantes. Panel con dashboard, pedidos, cocina, menú, reportes y perfil.
 
+## Url de demo
+https://ingeniria-procesos.vercel.app/login
+
 ## Stack
 
 | Capa       | Tecnología                                                   |
@@ -51,12 +54,6 @@ RestaurantOS/
 ```bash
 # 1. variables de entorno (crear backend/.env)
 DATABASE_URL=postgres://user:pass@host:5432/restaurantos
-# o variables individuales:
-# DB_HOST=localhost
-# DB_PORT=5432
-# DB_NAME=restaurantos
-# DB_USER=restaurantos
-# DB_PASSWORD=restaurantos123
 
 # 2. instalar y arrancar
 cd backend
@@ -78,16 +75,16 @@ El frontend en dev proxy `/api/*` a `http://localhost:4000` (configurado en `vit
 
 ## Despliegue
 
-### Railway (Backend)
+### Render (Backend)
 
-1. Crear proyecto en Railway desde `backend/`
-2. Добавить переменную `DATABASE_URL` con la conexión a PostgreSQL
-3. Railway ejecuta `npm start` automáticamente
+1. Crear proyecto en Render desde `backend/`
+2. Agregar variables de entorno `DATABASE_URL` con la conexión a PostgreSQL
+3. Render ejecuta `npm start` automáticamente
 
 ### Vercel (Frontend)
 
 1. Importar repo, apuntar a `frontend/`
-2. Agregar variable de entorno `BACKEND_URL` = URL de Railway (ej: `https://restaurantos-api.up.railway.app`)
+2. Agregar variable de entorno `BACKEND_URL` = URL de Render (ej: `https://ingeniria-procesos.onrender.com/`)
 3. Vercel usa `vercel.json` para redirigir `/api/*` al serverless proxy y el resto a SPA
 
 ## Credenciales por defecto

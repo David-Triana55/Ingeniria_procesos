@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
     path: '/',
     Component: Layout,
     children: [
-      { index: true, loader: () => redirect('/dashboard') },
+      { index: true, loader: () => redirect('/login') },
       { path: 'dashboard', Component: Dashboard },
       { path: 'orders', Component: Orders },
       { path: 'kitchen', Component: Kitchen },

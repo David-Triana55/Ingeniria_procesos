@@ -30,7 +30,7 @@ router.post('/login', async (req, res) => {
 
     const { rows: restRows } = await pool.query('SELECT * FROM restaurants WHERE user_id = $1', [user.id]);
     const token = generateToken(user);
-
+    console.log('Token generado');
     res.json({
       token,
       user: {
@@ -44,6 +44,7 @@ router.post('/login', async (req, res) => {
       restaurant: restRows[0] || null,
     });
   } catch (err) {
+    console.error('Error al autenticar el usuario');
     res.status(500).json({ error: 'Error del servidor' });
   }
 });
@@ -60,6 +61,7 @@ router.get('/me', async (req, res) => {
     const { rows: restRows } = await pool.query('SELECT * FROM restaurants WHERE user_id = $1', [decoded.id]);
     res.json({ user: rows[0], restaurant: restRows[0] || null });
   } catch {
+    console.error('Error al obtener el usuario');
     res.status(401).json({ error: 'Token inválido' });
   }
 });
